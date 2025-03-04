@@ -18,16 +18,16 @@ function App() {
     <main className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-purple-900 to-blue-900 text-gray-100">
       {/* Imagen principal con texto */}
       <div className="text-center">
-        <img src="public/assets/Mica.png" alt="Profile" className="w-24 h-24 rounded-full mx-auto border shadow-md" />
+        <img src="assets/Mica.png" alt="Profile" className="w-24 h-24 rounded-full mx-auto border shadow-md" />
         <h1 className="text-2xl font-bold mt-4">Mica Beleni IA</h1>
       </div>
 
       {/* Sección de redes sociales */}
       <div className="flex flex-col gap-3 mt-6">
-        <SocialLink href="https://www.instagram.com/micabeleni" imgSrc="public/assets/instagram.png" alt="Instagram Logo" name="Instagram" />
-        <SocialLink href="https://www.youtube.com/@micabeleni" imgSrc="public/assets/youtube.png" alt="YouTube Logo" name="YouTube" />
-        <SocialLink href="https://www.linkedin.com/in/micabeleni" imgSrc="public/assets/linkedin.png" alt="Linkedin Logo" name="Linkedin" />
-        <SocialLink href="https://www.facebook.com/micabeleni" imgSrc="public/assets/facebook.png" alt="Facebook Logo" name="Facebook" />
+        <SocialLink href="https://www.instagram.com/micabeleni" imgSrc="assets/instagram.png" alt="Instagram Logo" name="Instagram" />
+        <SocialLink href="https://www.youtube.com/@micabeleni" imgSrc="assets/youtube.png" alt="YouTube Logo" name="YouTube" />
+        <SocialLink href="https://www.linkedin.com/in/micabeleni" imgSrc="assets/linkedin.png" alt="Linkedin Logo" name="Linkedin" />
+        <SocialLink href="https://www.facebook.com/micabeleni" imgSrc="assets/facebook.png" alt="Facebook Logo" name="Facebook" />
       </div>
     </main>
   );
